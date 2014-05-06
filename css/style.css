@@ -66,6 +66,12 @@ a:visited {
 }
 
 
+/* Tableau Formatting */
+
+.wcWatermark, .bottom_toolbar, .tab-toolbar-containter {
+	visibility: hidden;
+	display: none;
+}
 
 
 /* General Slides */ 
