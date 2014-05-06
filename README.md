@@ -2,6 +2,7 @@ fire_and_drought
 ================
 
 Final project for Information Visualization at the UC Berkeley School of Information
+Xavier Malina, Cameron Reed and Peter Swigert
 
 ================
 
