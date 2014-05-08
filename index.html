@@ -14,37 +14,12 @@
 	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
 	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-<!-- Tableau Script -->
-<script type='text/javascript' src='http://public.tableausoftware.com/javascripts/api/viz_v1.js'>
-</script>
-
 </head>
 
 <body>
 
-	<!-- Commented Out the Navigation Bar -->
-
-<!-- 	<div class="menu">
-		<div class="container clearfix">
-
-			<div id="logo" class="grid_3">
-				<img src="images/logo.png">
-			</div>
-
-			<div id="nav" class="grid_9 omega">
-				<ul class="navigation">
-					<li data-slide="1">Top Slide</li>
-					<li data-slide="2">Parallax Scrolling</li>
-					<li data-slide="3">Grid</li>
-					<li data-slide="4">Credits</li>
-				</ul>
-			</div>
-
-		</div>
-	</div> -->
-
 <!-- Slide 1: Title -->
-	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+	<div class="slide dark" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
 			<div id="content" class="grid_12">
@@ -54,8 +29,9 @@
 		</div>
 	</div>
 
+
 <!-- Slide 2: Introduction -->
-	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+	<div class="slide light" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
 			<div id="content" class="grid_7">
@@ -79,7 +55,7 @@
 
 
 <!-- Slide 3: Fire Dashboard -->
-	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+	<div class="slide dark" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>California Wildfire History</h1>
@@ -111,7 +87,7 @@
 	
 
 <!-- Slide 4: Drought Dashboard -->
-	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+	<div class="slide light" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>California Drought History</h1>
@@ -120,12 +96,12 @@
 			<!-- Begin Tableau Dashboard -->
 				<div class='tableauPlaceholder' style='width: 1004px; height: 569px;'>
 					<noscript>
-						<a href='#'><img alt='Drought Measures 1992-2012 ' src='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;dr&#47;drought_0&#47;DroughtMeasures1992-2012&#47;1_rss.png' style='border: none' /></a>
+						<a href='#'><img alt='Drought Measures 1993-2011 ' src='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;dr&#47;drought_0&#47;DroughtMeasures1993-2011&#47;1_rss.png' style='border: none' /></a>
 					</noscript>
 					<object class='tableauViz' width='1004' height='569' style='display:none;'>
 						<param name='host_url' value='http%3A%2F%2Fpublic.tableausoftware.com%2F' />
 						<param name='site_root' value='' />
-						<param name='name' value='drought_0&#47;DroughtMeasures1992-2012' />
+						<param name='name' value='drought_0&#47;DroughtMeasures1993-2011' />
 						<param name='tabs' value='no' />
 						<param name='toolbar' value='yes' />
 						<param name='static_image' value='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;dr&#47;drought_0&#47;DroughtMeasures1992-2012&#47;1.png' />
@@ -138,6 +114,50 @@
 					</object>
 				</div>
 			<!-- End Tableau Dashboard -->
+			<div>
+				<table style="width: 350px; text-align: center;">
+					<tr>
+						<th>Condition</th>
+						<th>PDSI Range</th>
+					</tr>
+					<tr>
+						<td>extreme wet spell</td>
+						<td>greater 4.0</td>
+					</tr>
+					<tr>
+						<td>severe wet spell</td>
+						<td>3.0 to 4.0</td>
+					</tr>
+					<tr>
+						<td>moderate wet spell</td>
+						<td>2.0 to 3.0</td>
+					</tr>
+					<tr>
+						<td>mild wet spell</td>
+						<td>1.0 to 2.0</td>
+					</tr>
+					<tr>
+						<td>normal</td>
+						<td>-1.0 to 1.0</td>
+					</tr>
+					<tr>
+						<td>mild drought</td>
+						<td>-2.0 to -1.0</td>
+					</tr>
+					<tr>
+						<td>moderate drought</td>
+						<td>-3.0 to -2.0</td>
+					</tr>
+					<tr>
+						<td>severe drought</td>
+						<td>-4.0 to -3.0</td>
+					</tr>
+					<tr>
+						<td>extreme drought</td>
+						<td>less than - 4.0</td>
+					</tr>
+				</table>
+			</div>
 
 			<h2>Some Explanatory Text</h2>
 			<p>Lorem ipsum dolor sit amet, cu his quot deserunt. Dicat quidam consetetur pro ut, cu simul primis vis. Ad ius oblique aliquam. At everti audire eos, graeco impedit principes te vis, eos omnium adipiscing concludaturque ad. Et odio mutat scripta ius. Mel et euismod epicurei, autem indoctum vix ex, ad sit fugit nobis.</p>
@@ -145,14 +165,14 @@
 			<!-- Begin Tableau Dashboard -->
 			<div class='tableauPlaceholder' style='width: 1004px; height: 569px;'>
 				<noscript>
-					<a href='#'><img alt='Drought Areas 1992-2012 ' src='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;dr&#47;drought_0&#47;DroughtAreas1992-2012&#47;1_rss.png' style='border: none' /></a>
+					<a href='#'><img alt='Drought Areas 1993-2011 ' src='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;dr&#47;drought_0&#47;DroughtAreas1993-2011&#47;1_rss.png' style='border: none' /></a>
 				</noscript>
 				<object class='tableauViz' width='1004' height='569' style='display:none;'>
 					<param name='host_url' value='http%3A%2F%2Fpublic.tableausoftware.com%2F' /> 
 					<param name='site_root' value='' />
-					<param name='name' value='drought_0&#47;DroughtAreas1992-2012' /><param name='tabs' value='no' />
+					<param name='name' value='drought_0&#47;DroughtAreas1993-2011' /><param name='tabs' value='no' />
 					<param name='toolbar' value='yes' />
-					<param name='static_image' value='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;dr&#47;drought_0&#47;DroughtAreas1992-2012&#47;1.png' /> 
+					<param name='static_image' value='http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;dr&#47;drought_0&#47;DroughtAreas1993-2011&#47;1.png' /> 
 					<param name='animate_transition' value='yes' />
 					<param name='display_static_image' value='yes' />
 					<param name='display_spinner' value='yes' />
@@ -197,7 +217,7 @@
 
 <!-- Slide 5: Drought and Fire Dashboard -->
 
-	<div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.5">
+	<div class="slide dark" id="slide5" data-slide="5" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Wildfire and Drought:</h1>
@@ -246,7 +266,7 @@
 
 <!-- Slide 6: Conclusion -->
 
-	<div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio="0.5">
+	<div class="slide light" id="slide6" data-slide="6" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Conclusion</h1>
@@ -277,6 +297,7 @@
 		</div>
 	</div>
 
+<!-- Scripts -->
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
@@ -284,5 +305,9 @@
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+
+<!-- Tableau Script -->
+<script type='text/javascript' src='http://public.tableausoftware.com/javascripts/api/viz_v1.js'></script>
+
 </body>
 </html>
