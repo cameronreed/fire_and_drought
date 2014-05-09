@@ -23,6 +23,18 @@ a:visited {
 	text-decoration: none;
 }
 
+td {
+	text-align:left;
+}
+th {
+	text-align:left;
+}
+td {
+	color:white;
+	
+}
+
+
 
 /* General Slides */ 
 
