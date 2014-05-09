@@ -23,18 +23,6 @@ a:visited {
 	text-decoration: none;
 }
 
-td {
-	text-align:left;
-}
-th {
-	text-align:left;
-}
-td {
-	color:white;
-	
-}
-
-
 
 /* General Slides */ 
 
@@ -114,21 +102,24 @@ h3 {
 }
 
 table {
-	background-color: #ffffff;
+	width: 100%;
+	color: #ffffff;
 	font-size: 0.9em;
+	text-align: left;
 }
 
 table, td, th {
 	border-bottom: 1px solid #cccccc;
 }
 
-table th {
+th {
 	background-color: #666666;
 	color: #ffffff;
+	padding: 1% 6%;
 }
 
 td {
-	padding: 2px;
+	padding: 1% 4%;
 }
 
 /* Slide 7: Credits; */
